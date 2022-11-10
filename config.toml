@@ -233,7 +233,7 @@ Extracurricular Activities
     [[params.projects.items]]
     title = "Hugo Profile"
     content = "A highly customizable and mobile first Hugo template for personal portfolio and blog."
-    image = "/images/projects/profile.png"
+    image = "{{ .Site.BaseURL }}/images/projects/profile.png"
 
       [params.projects.items.featured]
       name = "Demo"
@@ -254,7 +254,7 @@ Extracurricular Activities
     [[params.projects.items]]
     title = "Image Converter"
     content = "A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django."
-    image = "/images/projects/converter.jpg"
+    image = "{{ .Site.BaseURL }}/images/projects/converter.jpg"
 
       [params.projects.items.featured]
       name = "Demo"
