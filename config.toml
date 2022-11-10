@@ -1,6 +1,7 @@
 baseURL = 'https://miitaligupta.github.io/portfolio'
 languageCode = 'en-us'
-title = 'hugg diya'
+relativeURLs = "True"
+title = 'Mitali Gupta's Portfolio'
 theme="hugoprofile"
 
 Paginate = 3
