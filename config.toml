@@ -47,7 +47,7 @@ url = "https://www.linkedin.com/in/gupta-mitali/"
   [params.about]
   enable = true
   title = "About Me"
-  image = "../../exampleSite/static/images/me.png"
+  image = "/images/me.png"
   content = """
 I am currently pursuing Bachelor's of Computer Applications at the [CHRIST University](https://christuniversity.in/), Bangalore.
 
