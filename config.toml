@@ -32,7 +32,7 @@ animate = true
     [params.hero.button]
     enable = true
     name = "Resume"
-    url = "../Mitali_Resum.pdf"
+    url = "https://drive.google.com/file/d/1rEpf70uAVyhFyysgoxTkfrNfoC2hIsqo/view?usp=sharing"
     download = true
 
 [[params.hero.socialLinks.fontAwesomeIcons]]
@@ -162,6 +162,17 @@ Extra-Curricular Activities and Achievements
 
   [params.projects]
   enable = true
+
+    [[params.projects.items]]
+    title = "Petlet | Mobile Application"
+    content = "A simple Pet Info Manaaging Application built on Android Studio using Java, XML and Firebase"
+    # image = "{{ .Site.BaseURL }}/images/projects/profile.png"
+    image = "https://raw.githubusercontent.com/gurusabarish/hugo-profile/master/exampleSite/static/images/projects/profile2.jpg"
+
+      [[params.projects.items.links]]
+      icon = "fab fa-github"
+      url = "https://github.com/MiitaliGupta/Petlet"
+
 
     [[params.projects.items]]
     title = "Accio | Mobile Application"
