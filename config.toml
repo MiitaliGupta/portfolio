@@ -26,12 +26,13 @@ animate = true
   title = "Mitali."
   subtitle = "I develop things"
   content = "I am passionate about building excellent software that improves the lives of those around me."
-  image = "/images/hero.svg"
+  # image = "/images/hero.svg"
+  image = "https://raw.githubusercontent.com/gurusabarish/hugo-profile/6b22957c7c4c0d1250544f045f9f9b5e34e2123e/exampleSite/static/images/hero.svg"
 
     [params.hero.button]
     enable = true
     name = "Resume"
-    url = "#"
+    url = "../Mitali_Resum.pdf"
     download = true
 
 [[params.hero.socialLinks.fontAwesomeIcons]]
@@ -47,7 +48,8 @@ url = "https://www.linkedin.com/in/gupta-mitali/"
   [params.about]
   enable = true
   title = "About Me"
-  image = "/images/me.png"
+  # image = "/images/me.png"
+  image = "https://raw.githubusercontent.com/gurusabarish/hugo-profile/master/exampleSite/static/images/me.png"
   content = """
 I am currently pursuing Bachelor's of Computer Applications at the [CHRIST University](https://christuniversity.in/), Bangalore.
 
@@ -164,7 +166,8 @@ Extra-Curricular Activities and Achievements
     [[params.projects.items]]
     title = "Accio | Mobile Application"
     content = "A Lost and Found Application built on Android Studio using Java, XML and Firebase"
-    image = "{{ .Site.BaseURL }}/images/projects/profile.png"
+    # image = "{{ .Site.BaseURL }}/images/projects/profile.png"
+    image = "https://raw.githubusercontent.com/gurusabarish/hugo-profile/master/exampleSite/static/images/projects/profile2.jpg"
 
       [[params.projects.items.links]]
       icon = "fab fa-github"
@@ -173,7 +176,7 @@ Extra-Curricular Activities and Achievements
     [[params.projects.items]]
     title = "Astronomical Prediction Model | Machine Learning"
     content = "ML based model to Determine whether an Astronomical Body is Hazardous or not using the NASA’s dataset of Celestial Bodies containing its Relative Diameter and Velocity. It uses the concept of KNN Classification, Naive Bayes Classification and K-Mean Clustering, and python libraries including NumPy, Pandas, Sklearn, Seaborn, Matplotlib"
-    image = "{{ .Site.BaseURL }}/images/projects/converter.jpg"
+    image = "https://raw.githubusercontent.com/gurusabarish/hugo-profile/master/exampleSite/static/images/projects/profile2.jpg"
 
       [[params.projects.items.links]]
       icon = "fab fa-github"
@@ -190,7 +193,7 @@ Extra-Curricular Activities and Achievements
       [[params.projects.items]]
       title = "Altruists | Database Management"
       content = " NGO Management Multifunctional Website for the overall administration. The website also closely deals with APIs, including payment gateway, chatbot, GPS, and other state-of the-art technologies, It is built using HTML, CSS, JavaScript, PHP, MySQL"
-      image = "/images/projects/profile2.jpg"
+      image = "https://raw.githubusercontent.com/gurusabarish/hugo-profile/master/exampleSite/static/images/projects/profile2.jpg"
 
       [params.projects.items.featured]
       name = "Demo"
@@ -203,7 +206,7 @@ Extra-Curricular Activities and Achievements
       [[params.projects.items]]
       title = "Shycocan Corporation | Website Frontend"
       content = "Website for the product “Shycocan”, a life-saving Virus Attenuation Device that effectively disables the Coronavirus, built majorly using Elementor (WordPress) whilst interning at Suventure in a WebDev team"
-      image = "{{ .Site.BaseURL }}/images/projects/profile.png"
+      image = "https://raw.githubusercontent.com/gurusabarish/hugo-profile/master/exampleSite/static/images/projects/profile2.jpg"
 
       [params.projects.items.featured]
       name = "Demo"
@@ -214,7 +217,7 @@ Extra-Curricular Activities and Achievements
       [[params.projects.items]]
       title = "Animal Alcove | Desktop Application"
       content = "An Application for Pet Shop/ Adoption Centre Employees and Customers, It is built on .NET framework using C# and MySQL"
-      image = "{{ .Site.BaseURL }}/images/projects/profile.png"
+      image = "https://raw.githubusercontent.com/gurusabarish/hugo-profile/master/exampleSite/static/images/projects/profile2.jpg"
 
       [[params.projects.items.links]]
       icon = "fab fa-github"
