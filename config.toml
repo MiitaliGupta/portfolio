@@ -2,7 +2,7 @@ baseURL = 'https://miitaligupta.github.io/portfolio'
 languageCode = 'en-us'
 relativeURLs = "True"
 title = "Mitali Gupta"
-theme="hugoprofile"
+theme="hugoprofile1"
 
 Paginate = 3
 
@@ -27,7 +27,7 @@ animate = true
   subtitle = "I develop things"
   content = "I am passionate about building excellent software that improves the lives of those around me."
   # image = "/images/hero.svg"
-  image = "https://raw.githubusercontent.com/gurusabarish/hugo-profile/6b22957c7c4c0d1250544f045f9f9b5e34e2123e/exampleSite/static/images/hero.svg"
+  image = "https://hugo-profile.netlify.app/images/hero.svg"
 
     [params.hero.button]
     enable = true
@@ -35,13 +35,13 @@ animate = true
     url = "https://drive.google.com/file/d/1rEpf70uAVyhFyysgoxTkfrNfoC2hIsqo/view?usp=sharing"
     download = true
 
-[[params.hero.socialLinks.fontAwesomeIcons]]
-icon = "fab fa-github"
-url = "https://github.com/MiitaliGupta"
+    [[params.hero.socialLinks.fontAwesomeIcons]]
+    icon = "fab fa-github"
+    url = "https://github.com/MiitaliGupta"
 
-[[params.hero.socialLinks.fontAwesomeIcons]]
-icon = "fab fa-linkedin"
-url = "https://www.linkedin.com/in/gupta-mitali/"
+    [[params.hero.socialLinks.fontAwesomeIcons]]
+    icon = "fab fa-linkedin"
+    url = "https://www.linkedin.com/in/gupta-mitali/"
 
 
 
@@ -49,7 +49,7 @@ url = "https://www.linkedin.com/in/gupta-mitali/"
   enable = true
   title = "About Me"
   # image = "/images/me.png"
-  image = "https://raw.githubusercontent.com/gurusabarish/hugo-profile/master/exampleSite/static/images/me.png"
+  image = "https://hugo-profile.netlify.app/images/me.png"
   content = """
 I am currently pursuing Bachelor's of Computer Applications at the [CHRIST University](https://christuniversity.in/), Bangalore.
 
@@ -96,16 +96,16 @@ During this internship, my work was mainly focused on determining keywords, post
     date = "2020 - 2023"
     GPA = "3.89 out of 4.0"
     content = """
-Positions of Responsibility
-- Student Coordinator, Labyrinth (Computer Science Club) (Aug’20 - Sept’22)
+      Positions of Responsibility
+      - Student Coordinator, Labyrinth (Computer Science Club) (Aug’20 - Sept’22)
 
-  - Appointed as a Core Committee member (Jul’22 - Sept’22)
-  - Organized and managed various Conferences, Tech Talks, Workshops, and Competitions on Intra-Department, Inter-department, Intra-University, Inter-University and National Levels
+        - Appointed as a Core Committee member (Jul’22 - Sept’22)
+        - Organized and managed various Conferences, Tech Talks, Workshops, and Competitions on Intra-Department, Inter-department, Intra-University, Inter-University and National Levels
 
-- Core Member, WRIT (Women in Research and IT) (Aug’21 - Present)
+      - Core Member, WRIT (Women in Research and IT) (Aug’21 - Present)
 
-  - Appointed as a Core Committee member for academic year 2021 to 2023
-  - Building a community for women in the technical field"""
+        - Appointed as a Core Committee member for academic year 2021 to 2023
+        - Building a community for women in the technical field"""
 
       [params.education.items.school]
       name = "CHRIST University"
@@ -116,24 +116,24 @@ Positions of Responsibility
     date = "2020"
     GPA = "93.70%"
     content = """
-Extra-Curricular Activities and Achievements
-- Elected Head Girl
-- State Level Participation (as team captain) in Kho-Kho, Throwball, Athletics
-"""
+      Extra-Curricular Activities and Achievements
+      - Elected Head Girl
+      - State Level Participation (as team captain) in Kho-Kho, Throwball, Athletics
+      """
 
-      [params.education.items.school]
-      name = "Carmel School"
-      url = "http://carmelschoolgorakhpur.com/"
+            [params.education.items.school]
+            name = "Carmel School"
+            url = "http://carmelschoolgorakhpur.com/"
 
-    [[params.education.items]]
-    title = "High School (10th)"
-    date = "2018"
-    GPA = "92.80%"
-    content = """
-Extra-Curricular Activities and Achievements
-- City Champion in International English Olympiad (IEO)
-- Debate Team Member (School Level)
-"""
+          [[params.education.items]]
+          title = "High School (10th)"
+          date = "2018"
+          GPA = "92.80%"
+          content = """
+      Extra-Curricular Activities and Achievements
+      - City Champion in International English Olympiad (IEO)
+      - Debate Team Member (School Level)
+      """
 
       [params.education.items.school]
       name = "Carmel Scool"
@@ -167,7 +167,7 @@ Extra-Curricular Activities and Achievements
     title = "Petlet | Mobile Application"
     content = "A simple Pet Info Manaaging Application built on Android Studio using Java, XML and Firebase"
     # image = "{{ .Site.BaseURL }}/images/projects/profile.png"
-    image = "https://raw.githubusercontent.com/gurusabarish/hugo-profile/master/exampleSite/static/images/projects/profile2.jpg"
+    image = "https://hugo-profile.netlify.app/images/projects/profile.png"
 
       [[params.projects.items.links]]
       icon = "fab fa-github"
@@ -178,7 +178,7 @@ Extra-Curricular Activities and Achievements
     title = "Accio | Mobile Application"
     content = "A Lost and Found Application built on Android Studio using Java, XML and Firebase"
     # image = "{{ .Site.BaseURL }}/images/projects/profile.png"
-    image = "https://raw.githubusercontent.com/gurusabarish/hugo-profile/master/exampleSite/static/images/projects/profile2.jpg"
+    image = "https://hugo-profile.netlify.app/images/projects/converter.jpg"
 
       [[params.projects.items.links]]
       icon = "fab fa-github"
